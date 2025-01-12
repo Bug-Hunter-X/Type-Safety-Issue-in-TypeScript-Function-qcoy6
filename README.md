@@ -1,0 +1,3 @@
+# Type Safety Issue in TypeScript Function
+
+This repository demonstrates a common type safety issue in TypeScript functions where incorrect parameter types can lead to unexpected results. The `greeter` function expects a string, but when an array is passed, it concatenates the array representation instead of treating elements individually. The solution involves explicitly defining the parameter type as a string or implementing type checking.
